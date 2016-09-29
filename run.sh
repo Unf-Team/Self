@@ -21,7 +21,6 @@
 # So it can detect any kind of kernel interruption with the procces and reload the bot.
 
 
-#BeyondTeam
 
 
 # Some script variables
@@ -32,7 +31,7 @@ NONVOLUNTARYCHECK=0
 VOLUNTARY=1
 VOLUNTARYCHECK=0
 I=1
-BOT=Self-Bot  # You can put here other bots. Also you can change it to run more than one bot in the same server.
+BOT=Self  # You can put here other bots. Also you can change it to run more than one bot in the same server.
 RELOADTIME=10  # Time between checking cpu calls of the cli process. Set the value high if your bot does not receive lots of messages.
 
 
