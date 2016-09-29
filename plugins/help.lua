@@ -126,10 +126,7 @@ function run(msg, matches)
 🔴!clean msg number
 🔹حذف پیام های اخیر سوپرگروه
 مثال : !clean msg 100
-
-➖➖➖➖➖➖
-Team Channel : 😎@BeyondTeam 😎
-➖➖➖➖➖➖]]
+]]
     if matches[1] == 'help' and is_sudo(msg) then
       send_large_msg("user#id"..msg.from.id, help)      
    return 'Help was sent in your private message'
