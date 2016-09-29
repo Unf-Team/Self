@@ -223,11 +223,9 @@ function create_config( )
     "dl-file",
     "savefile",
     "groupmanager",
-    "on-off",
-    "version",
-    "solid"
+    "on-off"
     },
-    sudo_users = {157059515,136701650,tonumber(our_id)},--Sudo users
+    sudo_users = {105831687},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[]],
